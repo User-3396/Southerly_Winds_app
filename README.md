@@ -17,3 +17,10 @@ samples, guidance on mobile development, and a full API reference.
 
 - How to use FlutLab? Please, view our https://flutlab.io/docs
 - Join the discussion and conversation on https://flutlab.io/residents
+
+## Flutter/Dart
+
+- `NavigationRail`: Cria a barra vertical de abas na esquerda com ícone e texto.
+- `_selectedIndex`: Controla qual aba está ativa no momento.
+- `Expanded`: Garante que os detalhes dos lanches preencham todo o lado direito da tela.
+
