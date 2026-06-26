@@ -20,8 +20,23 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Flutter/dart:
 
-- `StatelessWidget`: Cria componentes estáticos. Eles não mudam de visual sozinhos após aparecerem na tela (ex: um texto fixo, um logotipo do seu clube).
-- `StatefulWidget`: Cria componentes dinâmicos. Eles podem mudar de visual quando o usuário interage (ex: um contador de lanches, um botão de carrinho de compras).
+- `StatelessWidget`:
+  Cria componentes estáticos.
+  Eles não mudam de visual sozinhos após aparecerem na tela (ex: um texto fixo, um logotipo do seu clube).
+
+- `StatefulWidget`:
+  Cria componentes dinâmicos.
+  Eles podem mudar de visual quando o usuário interage (ex: um contador de lanches, um botão de carrinho de compras).
+  `setState(() {})` usado necessariamente para desenhar na tela a atualização.
+
+### Widgets de Layout: 
+
+- `Scaffold`: O "esqueleto" da tela. Fornece a barra de topo (`AppBar`) e o fundo branco do app.
+- `Text('Texto')`: Escreve qualquer mensagem na tela.
+- `Row(children: [])`: Alinha os componentes na __horizontal__ (lado a lado).
+- `Column(children: [])`: Alinha os componentes na __vertical__ (um abaixo do outro).
+- `Container`: Uma caixa que você pode colorir, colocar bordas ou definir tamanho fixo.
+- `ElevatedButton`: Um botão clicável com relevo.
 
 - `NavigationRail`: Cria a barra vertical de abas na esquerda com ícone e texto.
 - `_selectedIndex`: Controla qual aba está ativa no momento.
