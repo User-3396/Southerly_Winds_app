@@ -10,8 +10,8 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           'Pagina principal',
-          style: TextStyle(
-            color: const Color.fromARGB(255, 218, 218, 218),
+          style: const TextStyle(
+            color: Color.fromARGB(255, 218, 218, 218),
             fontSize: 20,
             fontWeight: FontWeight.bold,
           ),
@@ -19,11 +19,11 @@ class MyHomePage extends StatelessWidget {
         centerTitle: true,
         backgroundColor: const Color.fromRGBO(60, 60, 60, 1),
         //leading: const Icon(Icons.home), //
-        actions: <Widget>[
-          CircleAvatar(
-            backgroundImage: AssetImage('assets/images/user-16.png'),
-          ),
-        ],
+        // actions: <Widget>[
+        // CircleAvatar(
+        //   backgroundImage: AssetImage('assets/images/user-16.png'),
+        // ),
+        // ],
       ),
       body: Center(
         child: Column(
@@ -58,7 +58,7 @@ class MyHomePage extends StatelessWidget {
           ],
         ),
       ),
-      backgroundColor: Color.fromRGBO(22, 22, 22, 1),
+      backgroundColor: const Color.fromRGBO(22, 22, 22, 1),
     );
   }
 }
