@@ -20,6 +20,9 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Flutter/dart:
 
+- `StatelessWidget`: Cria componentes estáticos. Eles não mudam de visual sozinhos após aparecerem na tela (ex: um texto fixo, um logotipo do seu clube).
+- `StatefulWidget`: Cria componentes dinâmicos. Eles podem mudar de visual quando o usuário interage (ex: um contador de lanches, um botão de carrinho de compras).
+
 - `NavigationRail`: Cria a barra vertical de abas na esquerda com ícone e texto.
 - `_selectedIndex`: Controla qual aba está ativa no momento.
 - `Expanded`: Garante que os detalhes dos lanches preencham todo o lado direito da tela.

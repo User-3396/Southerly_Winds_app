@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
+// import 'package:image_picker/image_picker.dart';
 //import 'package:image_picker/image_picker.dart';
 // A tela de recolorir foto já existe no projeto, vamos importá-la.
 //import '../lib2/screens/photo_recolor.dart';

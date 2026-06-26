@@ -10,9 +10,9 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
+        title: const Text(
           'Pagina principal',
-          style: const TextStyle(
+          style: TextStyle(
             color: Color.fromARGB(255, 218, 218, 218),
             fontSize: 20,
             fontWeight: FontWeight.bold,
