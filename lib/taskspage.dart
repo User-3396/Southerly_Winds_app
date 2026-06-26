@@ -1,8 +1,7 @@
 //import 'dart:ffi'; // para usar a classe DateTime
 
 import 'package:flutter/material.dart';
-import 'package:myapp/models/tarefa.dart';
-
+import 'models/tarefa.dart';
 
 class TarefasPage extends StatefulWidget {
   const TarefasPage({super.key});
@@ -13,7 +12,7 @@ class TarefasPage extends StatefulWidget {
 
 class _TarefasPageState extends State<TarefasPage> {
   /*final*/
-  List<TaskModel> tasks =[
+  List<TaskModel> tasks = [
     TaskModel(servico: 'Pintura', cliente: 'João'),
     TaskModel(
       servico: 'Lavagem',
@@ -24,7 +23,7 @@ class _TarefasPageState extends State<TarefasPage> {
   ];
 
   @override
-  Widget build (BuildContext context){
+  Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.blueGrey,
       appBar: _buildAppBar(),
@@ -35,7 +34,7 @@ class _TarefasPageState extends State<TarefasPage> {
             // Lista de tarefas
             // Botao para adicionar uma tarefa:
             ElevatedButton(
-              onPressed: (){},
+              onPressed: () {},
               child: const Text('+'),
             ),
           ],

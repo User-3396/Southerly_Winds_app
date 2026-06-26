@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 // import 'package:myapp/taskspage.dart';
 
@@ -31,7 +33,9 @@ class MyHomePage extends StatelessWidget {
           children: <Widget>[
             const SizedBox(height: 20), // Espaço entre os widgets
             const Text('Olá pintor'),
-
+            Icon(Icons.fastfood),
+            Icon(Icons.local_drink),
+            Icon(Icons.cake),
             // botao para lista de clientes cadastrados:
             ElevatedButton(
               onPressed: () {
