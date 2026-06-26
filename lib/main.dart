@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'myhomepage.dart' as home;
 
 void main() => runApp(const MyApp());
 
@@ -14,11 +15,12 @@ class MyApp extends StatelessWidget {
         // useMaterial3: false,
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(),
+      home: const home.MyHomePage(),
     );
   }
 }
 
+/*
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
   // This widget is the home page of your application. It is stateful, meaning
@@ -90,3 +92,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+/*
